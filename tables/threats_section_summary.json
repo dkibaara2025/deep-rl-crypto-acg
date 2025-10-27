@@ -1,0 +1,14 @@
+{
+  "alignment_csv": "/content/export/tables/threats_alignment_window_audit.csv",
+  "ks_csv": "/content/export/tables/threats_ks_train_vs_test_z.csv",
+  "ks_fig": "/content/export/figures/threats_ks_z_train_test.png",
+  "val_vs_test_corr_csv": null,
+  "val_vs_test_scatter": null,
+  "construct_corr_csv": "/content/export/tables/threats_construct_corr_econ.csv",
+  "mae_vs_sharpe_fig": "/content/export/figures/threats_testMAE_vs_sharpe.png",
+  "da_vs_sharpe_fig": "/content/export/figures/threats_testDA_vs_sharpe.png",
+  "regime_agg_csv": "/content/export/tables/threats_regime_rmse_agg.csv",
+  "regime_fig": "/content/export/figures/threats_regime_rmse_bars.png",
+  "external_dispersion_csv": "/content/export/tables/threats_external_dispersion_test_mae.csv",
+  "stress_windows_csv": "/content/export/tables/econ_stress_windows.csv"
+}
