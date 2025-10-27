@@ -1,6 +1,10 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+<<<<<<< HEAD
 *.py[codz]
+=======
+*.py[cod]
+>>>>>>> eceba9f (Initial public release – PhD framework)
 *$py.class
 
 # C extensions
@@ -26,6 +30,7 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+<<<<<<< HEAD
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -205,3 +210,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# PyTorch / logs
+runs/
+wandb/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data and results (keep small samples only)
+data/raw/
+data/interim/
+data/processed/
+results/figures/*.png
+results/tables/*.csv
+>>>>>>> eceba9f (Initial public release – PhD framework)

@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+tqdm
+scipy
+gym
+wandb
+torchmetrics
+yfinance
+jupyter
