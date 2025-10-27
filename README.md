@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # deep-rl-crypto-acg
 Deep Reinforcement Learning Framework with Automatic Curriculum Generation for Cryptocurrency Price Prediction — PhD Work (JKUAT)
 =======
 # Deep Reinforcement Learning Framework with Automatic Curriculum Generation for Cryptocurrency Price Prediction
 
-This repository contains the official implementation of the PhD research by **David Gichuiri Kibaara (JKUAT, 2021–2025)**.
+This repository contains the official implementation of the PhD research by **David Gichuiri Kibaara (JKUAT, 2021–2026)**.
 
 It implements a **bandit-driven Teacher–Student Curriculum Learning (TSCL)** framework for **cryptocurrency time-series forecasting** with **automatic curriculum generation (ACG)** using multi-armed bandits (UCB, Thompson Sampling) and student models (KAN and deep learning baselines).
 
@@ -78,4 +77,4 @@ Kibaara, D. G. (2025). *A Deep Reinforcement Learning Framework with Automatic C
 ## 🔒 License
 
 MIT License (see `LICENSE`).
->>>>>>> eceba9f (Initial public release – PhD framework)
+(Initial public release – PhD framework)
