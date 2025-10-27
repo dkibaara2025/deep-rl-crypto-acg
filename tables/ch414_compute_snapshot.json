@@ -1,0 +1,300 @@
+{
+  "param_size_mb": [
+    {
+      "model": "KANish",
+      "params": 3329,
+      "param_bytes": 13316,
+      "param_size_mb": 0.0126991271972656
+    },
+    {
+      "model": "LSTM",
+      "params": 22658,
+      "param_bytes": 90632,
+      "param_size_mb": 0.0864334106445312
+    }
+  ],
+  "top_infer_sps": [
+    {
+      "model": "KANish",
+      "input_dim": 1,
+      "win": 32,
+      "batch": 512,
+      "samples_per_sec": 2053253.0426356287,
+      "wall_time_s": 0.0199488319994998,
+      "energy_kwh": 1.662402666624985e-07,
+      "cost_usd": 3.3248053332499694e-08,
+      "carbon_kg": 6.64961066649994e-08
+    },
+    {
+      "model": "KANish",
+      "input_dim": 1,
+      "win": 64,
+      "batch": 512,
+      "samples_per_sec": 1110076.4971392618,
+      "wall_time_s": 0.0368983580010535,
+      "energy_kwh": 3.074863166754464e-07,
+      "cost_usd": 6.149726333508929e-08,
+      "carbon_kg": 1.2299452667017858e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 1,
+      "win": 128,
+      "batch": 512,
+      "samples_per_sec": 876939.4282738551,
+      "wall_time_s": 0.0467079010013549,
+      "energy_kwh": 3.892325083446242e-07,
+      "cost_usd": 7.784650166892485e-08,
+      "carbon_kg": 1.556930033378497e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 6,
+      "win": 32,
+      "batch": 512,
+      "samples_per_sec": 543595.2653089223,
+      "wall_time_s": 0.0753501779981888,
+      "energy_kwh": 6.279181499849074e-07,
+      "cost_usd": 1.255836299969815e-07,
+      "carbon_kg": 2.51167259993963e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 6,
+      "win": 64,
+      "batch": 256,
+      "samples_per_sec": 306685.6911629618,
+      "wall_time_s": 0.0667784659999597,
+      "energy_kwh": 5.564872166663312e-07,
+      "cost_usd": 1.1129744333326625e-07,
+      "carbon_kg": 2.225948866665325e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 6,
+      "win": 128,
+      "batch": 128,
+      "samples_per_sec": 165628.3033627637,
+      "wall_time_s": 0.0618251820014847,
+      "energy_kwh": 5.152098500123732e-07,
+      "cost_usd": 1.0304197000247467e-07,
+      "carbon_kg": 2.060839400049493e-07
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 6,
+      "win": 32,
+      "batch": 256,
+      "samples_per_sec": 13430.288113368482,
+      "wall_time_s": 1.5249114409998583,
+      "energy_kwh": 1.2707595341665486e-05,
+      "cost_usd": 2.5415190683330973e-06,
+      "carbon_kg": 5.0830381366661945e-06
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 1,
+      "win": 32,
+      "batch": 512,
+      "samples_per_sec": 8933.066656635145,
+      "wall_time_s": 4.585211503999744,
+      "energy_kwh": 3.821009586666453e-05,
+      "cost_usd": 7.642019173332907e-06,
+      "carbon_kg": 1.5284038346665813e-05
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 6,
+      "win": 64,
+      "batch": 128,
+      "samples_per_sec": 6708.778951890761,
+      "wall_time_s": 1.5263582349980425,
+      "energy_kwh": 1.271965195831702e-05,
+      "cost_usd": 2.543930391663404e-06,
+      "carbon_kg": 5.087860783326808e-06
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 1,
+      "win": 64,
+      "batch": 256,
+      "samples_per_sec": 4558.232426490784,
+      "wall_time_s": 4.492969660997915,
+      "energy_kwh": 3.744141384164929e-05,
+      "cost_usd": 7.488282768329859e-06,
+      "carbon_kg": 1.497656553665972e-05
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 6,
+      "win": 128,
+      "batch": 64,
+      "samples_per_sec": 3390.474431494793,
+      "wall_time_s": 1.510113142998307,
+      "energy_kwh": 1.2584276191652558e-05,
+      "cost_usd": 2.516855238330512e-06,
+      "carbon_kg": 5.033710476661024e-06
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 1,
+      "win": 128,
+      "batch": 128,
+      "samples_per_sec": 3316.210239366863,
+      "wall_time_s": 3.08786212600171,
+      "energy_kwh": 2.573218438334758e-05,
+      "cost_usd": 5.146436876669516e-06,
+      "carbon_kg": 1.0292873753339032e-05
+    }
+  ],
+  "top_train_stepsps": [
+    {
+      "model": "KANish",
+      "input_dim": 1,
+      "win": 32,
+      "batch": 128,
+      "steps_per_sec": 742.7944665739092,
+      "wall_time_s": 0.1615520919986011,
+      "energy_kwh": 1.346267433321676e-06,
+      "cost_usd": 2.692534866643352e-07,
+      "carbon_kg": 5.385069733286704e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 1,
+      "win": 64,
+      "batch": 128,
+      "steps_per_sec": 727.212474407712,
+      "wall_time_s": 0.1650136710013612,
+      "energy_kwh": 1.3751139250113434e-06,
+      "cost_usd": 2.750227850022687e-07,
+      "carbon_kg": 5.500455700045374e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 1,
+      "win": 128,
+      "batch": 128,
+      "steps_per_sec": 687.443390471041,
+      "wall_time_s": 0.1745598279994737,
+      "energy_kwh": 1.4546652333289484e-06,
+      "cost_usd": 2.909330466657897e-07,
+      "carbon_kg": 5.818660933315794e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 6,
+      "win": 32,
+      "batch": 128,
+      "steps_per_sec": 604.8233269295877,
+      "wall_time_s": 0.1984050459977879,
+      "energy_kwh": 1.6533753833148996e-06,
+      "cost_usd": 3.3067507666298e-07,
+      "carbon_kg": 6.613501533259599e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 6,
+      "win": 64,
+      "batch": 128,
+      "steps_per_sec": 551.4919230726146,
+      "wall_time_s": 0.2175915819971123,
+      "energy_kwh": 1.8132631833092695e-06,
+      "cost_usd": 3.62652636661854e-07,
+      "carbon_kg": 7.25305273323708e-07
+    },
+    {
+      "model": "KANish",
+      "input_dim": 6,
+      "win": 128,
+      "batch": 256,
+      "steps_per_sec": 313.6341722236067,
+      "wall_time_s": 0.382611369001097,
+      "energy_kwh": 3.188428075009142e-06,
+      "cost_usd": 6.376856150018285e-07,
+      "carbon_kg": 1.275371230003657e-06
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 1,
+      "win": 32,
+      "batch": 128,
+      "steps_per_sec": 41.20299832479346,
+      "wall_time_s": 2.9124094089966093,
+      "energy_kwh": 2.427007840830508e-05,
+      "cost_usd": 4.854015681661015e-06,
+      "carbon_kg": 9.70803136332203e-06
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 6,
+      "win": 32,
+      "batch": 128,
+      "steps_per_sec": 40.0037059166886,
+      "wall_time_s": 2.999722081996879,
+      "energy_kwh": 2.4997684016640656e-05,
+      "cost_usd": 4.999536803328131e-06,
+      "carbon_kg": 9.999073606656262e-06
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 1,
+      "win": 64,
+      "batch": 128,
+      "steps_per_sec": 19.722383703614717,
+      "wall_time_s": 6.084457224002108,
+      "energy_kwh": 5.070381020001757e-05,
+      "cost_usd": 1.0140762040003517e-05,
+      "carbon_kg": 2.028152408000703e-05
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 6,
+      "win": 64,
+      "batch": 128,
+      "steps_per_sec": 19.40358546427707,
+      "wall_time_s": 6.184424019000289,
+      "energy_kwh": 5.15368668250024e-05,
+      "cost_usd": 1.0307373365000482e-05,
+      "carbon_kg": 2.0614746730000963e-05
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 1,
+      "win": 128,
+      "batch": 128,
+      "steps_per_sec": 7.869270609868085,
+      "wall_time_s": 15.249189657999525,
+      "energy_kwh": 0.0001270765804833,
+      "cost_usd": 2.541531609666587e-05,
+      "carbon_kg": 5.083063219333174e-05
+    },
+    {
+      "model": "LSTM",
+      "input_dim": 6,
+      "win": 128,
+      "batch": 128,
+      "steps_per_sec": 7.725803918560799,
+      "wall_time_s": 15.532364173999667,
+      "energy_kwh": 0.0001294363681166,
+      "cost_usd": 2.588727362333277e-05,
+      "carbon_kg": 5.177454724666555e-05
+    }
+  ],
+  "infer_energy_cost": [
+    {
+      "model": "LSTM",
+      "wall_time_s": 100.04816593698706,
+      "energy_kwh": 0.0008337347161415,
+      "cost_usd": 0.0001667469432283,
+      "carbon_kg": 0.0003334938864566
+    },
+    {
+      "model": "KANish",
+      "wall_time_s": 1.1631046480069926,
+      "energy_kwh": 9.692538733391603e-06,
+      "cost_usd": 1.938507746678321e-06,
+      "carbon_kg": 3.877015493356642e-06
+    }
+  ]
+}

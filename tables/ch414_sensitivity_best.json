@@ -1,0 +1,29 @@
+{
+  "best_ucb": null,
+  "best_rounds": null,
+  "best_steps": null,
+  "best_hidden": null,
+  "best_layers": null,
+  "best_dropout": null,
+  "best_lr": null,
+  "best_window": [
+    {
+      "horizon": 1,
+      "w": 64.0,
+      "MAE": 0.531845,
+      "rounds_used": 50.0
+    },
+    {
+      "horizon": 3,
+      "w": 64.0,
+      "MAE": 0.558205,
+      "rounds_used": 50.0
+    },
+    {
+      "horizon": 7,
+      "w": 64.0,
+      "MAE": 0.601281,
+      "rounds_used": 50.0
+    }
+  ]
+}

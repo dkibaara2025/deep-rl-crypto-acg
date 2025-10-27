@@ -1,0 +1,14 @@
+section,how_to_rerun,expected_outputs
+§4.0,Use Overview text; no code.,—
+§4.1,Run 'Dataset audit & splits' cell.,"dataset_long_1D.csv, dataset_summary.json, coverage_by_asset_split.csv"
+§4.2,Run 'Baselines (KAN vs LSTM vs SMA/Naive)' cell.,"baseline_results_*.csv, graph_*.png, model_param_counts.csv"
+§4.3,Run 'ACG-DRL (UCB teacher)' cell.,acg_* (logs/tables/figures)
+§4.4,Run 'Regime-aware ACG' cell.,acg_regime_* (tables/figures)
+§4.5,Run 'Robustness & Ablations' cell.,ablate_* (logs/results/figures)
+§4.6,Run 'Comparative significance (Wilcoxon/Friedman)' cell.,"wilcoxon_*.csv, friedman_*.csv, comp_*.png"
+§4.7,Run 'Sensitivity & Hyperparameters' cell.,sens_* (tables/figures)
+§4.8,Run 'Uncertainty & Calibration' cell.,unc_* (tables/figures)
+§4.9,Run 'Interpretability & Diagnostics' cell.,"interp_* (tables/figures, kan_* snapshot)"
+§4.10,Run 'Economic Backtesting' cell.,econ_* (tables/figures)
+§4.11,Run 'Compute Profiling' cell.,compute_* (tables/figures)
+§4.12,Run this cell.,"repro_* (manifest/index), repro_pip_freeze.txt"

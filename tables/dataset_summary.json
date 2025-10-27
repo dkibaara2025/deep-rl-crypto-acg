@@ -1,0 +1,44 @@
+{
+  "date_range": {
+    "min": "2010-07-17 00:00:00+00:00",
+    "max": "2025-09-30 00:00:00+00:00",
+    "freq": "1D"
+  },
+  "assets": [
+    "ADA",
+    "BNB",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETH",
+    "LTC",
+    "SOL",
+    "TRX",
+    "XRP"
+  ],
+  "rows_total": 32977,
+  "rows_by_split": {
+    "train": 23417,
+    "test": 5910,
+    "val": 3650
+  },
+  "rows_by_asset": {
+    "BTC": 5507,
+    "LTC": 4310,
+    "XRP": 3855,
+    "ETH": 3660,
+    "DOGE": 3331,
+    "BNB": 2897,
+    "TRX": 2865,
+    "ADA": 2784,
+    "SOL": 1952,
+    "DOT": 1816
+  },
+  "missing_by_col": {
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "close": 0,
+    "volume": 0
+  }
+}

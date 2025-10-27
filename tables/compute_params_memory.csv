@@ -1,0 +1,3 @@
+model,params,param_bytes,param_size_mb
+LSTM,22658,90632,0.08643341064453125
+KANish,3329,13316,0.012699127197265625

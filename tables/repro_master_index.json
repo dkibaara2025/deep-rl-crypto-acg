@@ -1,0 +1,136 @@
+{
+  "environment": {
+    "timestamp_utc": "2025-10-20T11:46:40Z",
+    "host": "a5c8fd4b4348",
+    "python": "3.12.12",
+    "platform": "Linux-6.6.105+-x86_64-with-glibc2.35",
+    "processor": "x86_64",
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "matplotlib": "3.10.0",
+    "torch": "2.8.0+cu126",
+    "cuda_available": false,
+    "device_name": "cpu",
+    "seed_used": 1337,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "pip_freeze_path": "/content/export/logs/repro_pip_freeze.txt"
+  },
+  "dataset": {
+    "exists": true,
+    "path": "/content/export/tables/dataset_long_1D.csv",
+    "rows": 32977,
+    "assets": 10,
+    "min_ts": "2010-07-17T00:00:00+00:00",
+    "max_ts": "2025-09-30T00:00:00+00:00",
+    "splits": {
+      "train": 23417,
+      "test": 5910,
+      "val": 3650
+    },
+    "sha256": "b778d8a36bdbe2d0373ddf3fba6d4eece79101c6eb364770a26e0f0e4efa4bff"
+  },
+  "artifact_counts": [
+    {
+      "section": "misc",
+      "type": "figure",
+      "count": 160
+    },
+    {
+      "section": "misc",
+      "type": "table/log",
+      "count": 40
+    },
+    {
+      "section": "\u00a74.1",
+      "type": "table/log",
+      "count": 4
+    },
+    {
+      "section": "\u00a74.10",
+      "type": "figure",
+      "count": 65
+    },
+    {
+      "section": "\u00a74.10",
+      "type": "table/log",
+      "count": 9
+    },
+    {
+      "section": "\u00a74.11",
+      "type": "figure",
+      "count": 10
+    },
+    {
+      "section": "\u00a74.11",
+      "type": "table/log",
+      "count": 5
+    },
+    {
+      "section": "\u00a74.2",
+      "type": "table/log",
+      "count": 3
+    },
+    {
+      "section": "\u00a74.3",
+      "type": "figure",
+      "count": 39
+    },
+    {
+      "section": "\u00a74.3",
+      "type": "table/log",
+      "count": 9
+    },
+    {
+      "section": "\u00a74.4",
+      "type": "figure",
+      "count": 12
+    },
+    {
+      "section": "\u00a74.4",
+      "type": "table/log",
+      "count": 6
+    },
+    {
+      "section": "\u00a74.5",
+      "type": "figure",
+      "count": 126
+    },
+    {
+      "section": "\u00a74.5",
+      "type": "table/log",
+      "count": 19
+    },
+    {
+      "section": "\u00a74.7",
+      "type": "figure",
+      "count": 12
+    },
+    {
+      "section": "\u00a74.7",
+      "type": "table/log",
+      "count": 11
+    },
+    {
+      "section": "\u00a74.8",
+      "type": "figure",
+      "count": 18
+    },
+    {
+      "section": "\u00a74.8",
+      "type": "table/log",
+      "count": 12
+    },
+    {
+      "section": "\u00a74.9",
+      "type": "figure",
+      "count": 52
+    },
+    {
+      "section": "\u00a74.9",
+      "type": "table/log",
+      "count": 9
+    }
+  ],
+  "manifest_csv": "/content/export/tables/repro_manifest_files.csv"
+}
